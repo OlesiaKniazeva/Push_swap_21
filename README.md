@@ -1,7 +1,10 @@
 # Push_swap
-School 21 project. The purpose of this project is to sort data with a limited set of instructions and the minimum possible amount of operation used.
+«School 21» project. The purpose of this project is to sort data with a limited set of instructions and the minimum possible amount of operation used.
 
 Task file: [Subject.pdf](https://github.com/Ollietani/Push_swap_21_school/blob/master/Subject.pdf)
+
+To make this project, I use my library with functions that we made as one of the tasks in «School 21».
+
 ## Project description
 
 Data is sorted by using two stacks, stack **a** is filled with integer numbers, without duplicates, received as arguments from the command line.
