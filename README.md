@@ -41,6 +41,8 @@ In case of error, both programs display **Error**: if there are duplicate number
 
 ## Usage
 
+`git clone git@github.com:Ollietani/Push_swap_21.git`
+
 Run `make` to execute `push_swap`.  
 
 ##### Usage of push_swap:
