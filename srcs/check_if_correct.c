@@ -61,6 +61,6 @@ void	check_duplicates(t_list *a)
 
 void	ft_error(void)
 {
-	ft_putstr("Error\n");
+	ft_putstr_fd("Error\n", 2);
 	exit(1);
 }
