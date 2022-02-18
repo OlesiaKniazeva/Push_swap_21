@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 static void	move_both(t_list **a, t_list **b, t_prov *move_am)
 {

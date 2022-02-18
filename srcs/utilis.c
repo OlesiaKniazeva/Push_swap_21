@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	print_list(t_list *a, t_list *b)
 {
@@ -9,7 +9,7 @@ void	print_list(t_list *a, t_list *b)
 	}
 	printf("---------\n");
 	while (b)
-	{		
+	{
 		printf("content=%d   %d\n", b->content, b->num);
 		b = b->next;
 	}

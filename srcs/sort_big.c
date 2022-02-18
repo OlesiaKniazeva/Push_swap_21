@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 int	ft_finish(t_list *a)
 {

@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	mark_a(t_list **a, int size)
 {
@@ -58,7 +58,7 @@ void	push_data_b2(t_list **a, t_list **b, int size)
 	while ((*a)->done != 1)
 	{
 		if ((*a)->mark == 1)
-		{	
+		{
 			push_el(b, a, "pb\n");
 			rotate_el('b', a, b);
 		}

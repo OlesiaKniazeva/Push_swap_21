@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 t_list	*ft_lstnewfornum(int content)
 {

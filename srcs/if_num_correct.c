@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 int	ft_if_correct(char *argv)
 {
@@ -44,7 +44,7 @@ t_list	*split_to_nums(char *argv, t_list *a)
 {
 	char	**numbers;
 	char	**pointer;
-	int		num;	
+	int		num;
 	t_list	*copy;
 
 	copy = a;

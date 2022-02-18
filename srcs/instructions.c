@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	made_swap(t_list **list)
 {
@@ -82,7 +82,7 @@ void	made_rev_rotate(t_list **list)
 	{
 		copy2 = copy;
 		copy = copy->next;
-	}	
+	}
 	copy2->next = NULL;
 	copy->next = *list;
 	*list = copy;

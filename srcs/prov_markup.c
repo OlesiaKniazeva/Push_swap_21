@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 int	count_mark(t_list *a)
 {
@@ -34,7 +34,7 @@ void	prov_markup(t_list **a, char type)
 		{
 			head = copy->num;
 			amount = ord_amount;
-		}	
+		}
 		copy = copy->next;
 	}
 	if (type == 'i')

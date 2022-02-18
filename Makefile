@@ -6,7 +6,7 @@ S_DIR = ./srcs
 
 B_DIR = ./bonus
 
-I_DIR = ./include
+I_DIR = ./includes
 
 SRCS = 	$(S_DIR)/push_swap.c\
 		$(S_DIR)/lists.c			$(S_DIR)/fill_order.c\
@@ -23,7 +23,7 @@ BSRCS = $(B_DIR)/checker.c\
 		$(S_DIR)/fill_order.c		$(S_DIR)/check_if_correct.c\
 		$(S_DIR)/lists.c			$(S_DIR)/if_num_correct.c\
 		$(S_DIR)/instructions.c		$(S_DIR)/instructions2.c\
-		$(S_DIR)/sort_big.c			
+		$(S_DIR)/sort_big.c
 
 OBJS = $(SRCS:.c=.o)
 
@@ -35,7 +35,7 @@ CC = gcc
 
 RM = rm -f
 
-CFLAGS = -g -Wall -Wextra -Werror
+CFLAGS = -g -Wall -Wextra -Werror -I $(I_DIR)
 
 LIB = libft/libft.a
 

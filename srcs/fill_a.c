@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	prov_direction_a(t_list *a, int num, t_prov *move_am)
 {
@@ -33,7 +33,7 @@ void	fill_for_utmost(t_prov *move_am, t_list *a, int min)
 	{
 		past_a++;
 		a = a->next;
-	}	
+	}
 	if (past_a < move_am->a)
 	{
 		move_am->a = past_a;
@@ -60,7 +60,7 @@ void	ft_fill(t_prov *move_am, t_list *a, int num)
 	{
 		past_a++;
 		a = a->next;
-	}	
+	}
 	if (past_a < move_am->a)
 	{
 		move_am->a = past_a;

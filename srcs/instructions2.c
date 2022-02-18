@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	swap_el(char type, t_list **a, t_list **b)
 {
@@ -21,7 +21,7 @@ void	swap_el(char type, t_list **a, t_list **b)
 }
 
 void	push_el(t_list **first, t_list **second, char *ms)
-{	
+{
 	t_list	*copy;
 
 	if (!*second)

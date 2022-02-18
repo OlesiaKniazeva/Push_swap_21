@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	to_swap(t_list **a, t_list **b, char *line)
 {
@@ -11,7 +11,7 @@ void	to_swap(t_list **a, t_list **b, char *line)
 		made_swap(a);
 		made_swap(b);
 	}
-}	
+}
 
 void	to_rotate(t_list **a, t_list **b, char *line)
 {

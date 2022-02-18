@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 void	prov_direction_b(t_list *b, int num, t_prov *move_am)
 {
@@ -42,7 +42,7 @@ int	ft_go_to_a(t_list *a, int num)
 	{
 		past_a++;
 		a = a->next;
-	}	
+	}
 	if (past_a > to_a)
 		return (to_a);
 	else

@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 int	prov_head_greater(int num, t_list *copy)
 {
@@ -77,7 +77,7 @@ void	ft_markup_index(t_list **a, int head)
 		{
 			copy->markup = 1;
 			head++;
-		}	
+		}
 		copy = copy->next;
 	}
 	*a = pointer;

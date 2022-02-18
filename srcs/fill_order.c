@@ -1,4 +1,4 @@
-#include "includes/push_swap.h"
+#include "push_swap.h"
 
 int	*fill_massive(t_list *a, int size)
 {
